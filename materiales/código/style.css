@@ -24,7 +24,7 @@ CSS INDEX
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (triggers hasLayout) */
 
-/* apply a natural box layout model to all elements 
+/* apply a natural box layout model to all elements
 (if supporting <IE8, use a pollyfill: https://github.com/Schepp/box-sizing-polyfill ) */
 * { 
 	-webkit-box-sizing: border-box; 
@@ -33,15 +33,116 @@ CSS INDEX
 }
 
 body{
+	background: #F7F7F7;
 	color: #222222;
 	font: 1em/1.8 sans-serif;
+	max-width: 54em;
+	margin: 2em auto;
+	padding: 1em 2em;
 }
 
-/* $2 Tipografia -------------------- */
+/* $2 Estilos para la Style Tile -------------------- */
+h1{
+	font-family: lato;
+	font-size: 2.6em;
+	line-height: 1.2;
+	margin-bottom: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p{
+	margin-bottom: 1em;
+}
+
+p a {
+  background-color: rgba(100,150,170,.8);
+  color: #F7F7F7;
+  text-decoration: none;
+  padding: 1px 5px;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+.demo-style{
+	max-width: 25em;
+	margin: 0 auto 10em;
+	background: #F0EDE8;
+	padding: 1.5em 2em;
+}
+
+.demo-call{
+	padding: 1em 2em;
+	margin: 1em -2em -1.5em;
+	text-align: center;
+	background: rgba(250,232,205,.3);
+}
+
+.logo{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	margin-bottom: 1em;
+}
+
+.logo img{
+	max-width: 100%;
+}
+
+.title{
+	font-size: 1.5em;
+	line-height: 1.2;
+	margin-bottom: .2em;
+}
+
+.subtitle{
+	font-size: 1.2em;
+	line-height: 1.3;
+	margin-bottom: .5em;
+}
 
 
-/* $3 Botones -------------------- */
+.palette{
+	margin-bottom: 1em;
+	padding-left: 0;
+	text-align: center;
+}
 
+.palette li{
+	display: inline-block;
+	width:3.5em;
+	height: 3.5em;
+	border-radius: 50%;
+}
 
-/* $4 Layout -------------------- */
+.color1{
+	background: #F58F1F;
+}
 
+.color2{
+	background: rgba(100,150,170,1);
+}
+
+.color3{
+  background: rgba(100,150,170,.8);
+}
+
+.color4{
+	background: #222;
+}
+
+.color5{
+	background: #F7F7F7;
+}
+
+button {
+  display: inline-block;
+  background: rgba(100,150,170,.8);
+  box-shadow: 0 5px 0 rgba(100,150,170,1);
+  color: #FFF;
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: 3px;
+}
