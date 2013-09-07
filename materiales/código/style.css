@@ -35,8 +35,8 @@ CSS INDEX
 body{
 	background: #F7F7F7;
 	color: #222222;
-	font: 1em/1.8 sans-serif;
-	max-width: 54em;
+	font: 1em sans-serif;
+	max-width: 250px;
 	margin: 2em auto;
 	padding: 1em 2em;
 }
@@ -51,11 +51,25 @@ h1{
 	text-transform: uppercase;
 }
 
-p{
-	margin-bottom: 1em;
+h2 {
+	font-family: lato;
+	font-size: 1.4em;
+  text-align: center;
+  line-height: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-p a {
+p{
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+.menu-link {
+  text-align: center;
+}
+
+a {
   background-color: rgba(100,150,170,.8);
   color: #F7F7F7;
   text-decoration: none;
@@ -66,25 +80,28 @@ p a {
   font-size: 0.7em;
 }
 
-.demo-style{
+nav ul li {
+  display: block;
+  text-align: center;
+}
+
+.container{
 	max-width: 25em;
 	margin: 0 auto 10em;
 	background: #F0EDE8;
-	padding: 1.5em 2em;
-}
-
-.demo-call{
-	padding: 1em 2em;
-	margin: 1em -2em -1.5em;
-	text-align: center;
-	background: rgba(250,232,205,.3);
+	padding: 1.5em 1.5em;
 }
 
 .logo{
 	display: block;
+  text-align: center;
 	text-decoration: none;
 	color: inherit;
 	margin-bottom: 1em;
+}
+
+.bottle img {
+  width: 100%;
 }
 
 .logo img{
@@ -92,9 +109,7 @@ p a {
 }
 
 .title{
-	font-size: 1.5em;
-	line-height: 1.2;
-	margin-bottom: .2em;
+  padding-top: 1em;
 }
 
 .subtitle{
