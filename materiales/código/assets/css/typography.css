@@ -1,0 +1,176 @@
+/* 
+	TYPOGRAPHY.CSS – Pares tipográficos 
+*/
+
+/* Lato - Regular, Bold, Italic */
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato/lato-bold.woff') format('woff'),
+         url('../fonts/lato/lato-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato/lato-regular.woff') format('woff'),
+         url('../fonts/lato/lato-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato/lato-italic.woff') format('woff'),
+         url('../fonts/lato/lato-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.lato{
+	font-family: 'lato';
+}	
+
+/* Open Sans Bold */
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans/opensans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.open-sans{
+	font-family: 'open_sans';
+	font-weight: bold;
+}
+
+/* Gentium Book - Regular, Bold, Italic */
+@font-face {
+    font-family: 'gentium_book';
+    src: url('../fonts/gentiumbook/genbkbasb.woff') format('woff'),
+         url('../fonts/gentiumbook/genbkbasb.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gentium_book';
+    src: url('../fonts/gentiumbook/genbkbasi.woff') format('woff'),
+         url('../fonts/gentiumbook/genbkbasi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gentium_book';
+    src: url('../fonts/gentiumbook/genbkbasr.woff') format('woff'),
+         url('../fonts/gentiumbook/genbkbasr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gentium-book{
+	font-family: 'gentium_book';
+}
+
+/* Old Standard - Regular, Bold, Italic */
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard/oldstandard-bold.woff') format('woff'),
+         url('../fonts/oldstandard/oldstandard-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard/oldstandard-italic.woff') format('woff'),
+         url('../fonts/oldstandard/oldstandard-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard/oldstandard-regular.woff') format('woff'),
+         url('../fonts/oldstandard/oldstandard-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.old-standard{
+	font-family: 'old_standard';
+}
+
+/* Merriweather - Regular, Bold, Italic */
+@font-face {
+    font-family: 'merriweather';
+    src: url('../fonts/merriweather/merriweather-bold.woff') format('woff'),
+         url('../fonts/merriweather/merriweather-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url('../fonts/merriweather/merriweather-italic.woff') format('woff'),
+         url('../fonts/merriweather/merriweather-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url('../fonts/merriweather/merriweather-regular.woff') format('woff'),
+         url('../fonts/merriweather/merriweather-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.merriweather{
+	font-family: 'merriweather';
+}
+
+/* Source Sans - Regular, Bold, Italic */
+@font-face {
+    font-family: 'source_sans';
+    src: url('../fonts/sourcesans/sourcesanspro-bold.woff') format('woff'),
+         url('../fonts/sourcesans/sourcesanspro-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('../fonts/sourcesans/sourcesanspro-italic.woff') format('woff'),
+         url('../fonts/sourcesans/sourcesanspro-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans';
+    src: url('../fonts/sourcesans/sourcesanspro-regular.woff') format('woff'),
+         url('../fonts/sourcesans/sourcesanspro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.source-sans{
+	font-family: 'source_sans';
+}
+
+/* Bitter - Bold */
+@font-face {
+    font-family: 'bitter';
+    src: url('../fonts/bitter/bitter-bold.woff') format('woff'),
+         url('../fonts/bitter/bitter-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bitter{
+	font-family: 'bitter';
+}

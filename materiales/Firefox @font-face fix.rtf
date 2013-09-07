@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20300\viewh12100\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 El "problema" de Firefox con @font-face\
+
+\fs24 \
+
+\b Explicaci\'f3n:
+\b0 \
+\
+Firefox tiene una pol\'edtica de seguridad bastante estricta con el origen de las web fonts. No pueden descargarse desde otros dominios o con una ruta relativa a distinto nivel de carpetas (ejemplo:" ../assets/fonts/font.woff") a no ser que digamos lo contrario en un archivo especial llamado .htaccess, y tampoco os quer\'edamos liar con montar un servidor local solo para eso. A continuaci\'f3n tienes 4 posibles soluciones.\
+\
+
+\b Posibles soluciones:
+\b0 \
+\
+
+\b A
+\b0  - Usa Chrome\
+\
+
+\b B
+\b0  - Escribe about:config en la barra de direcciones, localiza la l\'ednea "security.fileuri.strict_origin_policy" y c\'e1mbiala a "false" (y acu\'e9rdate de volverla a cambiar cuando hayas terminado). \
+\
+
+\b C
+\b0  - Reordena CSS, HTML y web fonts para que est\'e9n todas en el mismo nivel de carpetas (\'a1buf!).\
+\
+
+\b D
+\b0 - Crea un servidor local con MAMP, XAMP o cualquier otro software y a\'f1ade un archivo .htaccess con el siguiente c\'f3digo:\
+\
+# BEGIN REQUIRED FOR WEBFONTS\
+\
+AddType font/ttf .ttf\
+AddType font/eot .eot\
+AddType font/otf .otf\
+AddType font/woff .woff\
+\
+<FilesMatch "\\.(ttf|otf|eot|woff)$">\
+    <IfModule mod_headers.c>\
+        Header set Access-Control-Allow-Origin "*"\
+    </IfModule>\
+</FilesMatch>\
+\
+# END REQUIRED FOR WEBFONTS\
+\
+}

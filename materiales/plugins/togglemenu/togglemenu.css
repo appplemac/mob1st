@@ -1,0 +1,61 @@
+body{
+	position: relative;
+}
+
+p{
+	margin-bottom: 1em;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: #2D211F;
+	border-bottom: 1px solid #2D211F;
+}
+
+.menu-trigger{
+	text-decoration: none;
+	color: #FFF;
+	padding:.3em .5em;
+	background: #2D211F;
+	border-radius: 3px;
+}
+
+
+@media screen and (max-width: 37.5em){/* under 600px */
+	.js-active #menu{
+		display: none;
+	}
+
+	#menu-holder{
+		max-height: 0;
+		overflow: hidden;
+		-webkit-transition: max-height .5s;
+			    transition: max-height .5s;
+	}
+
+	#menu-holder.active{
+		max-height: 15em;
+	}
+
+}
+
+@media screen and (min-width: 37.5em){/* over 600px */
+	#menu-holder, 
+	.menu-trigger{
+		display: none;
+	}
+	#menu{
+		position: absolute;
+		top:-2em;
+	}
+
+	body{
+		margin-top: 4em;
+	}
+
+	#menu li{
+		display: inline-block;
+		margin-right: 1em;
+	}
+}

@@ -1,0 +1,94 @@
+/* 
+	BUTTONS.CSS – Estilos para botones y enlaces con apariencia de botones
+*/
+
+/* Botón de sistema básico ----------*/
+.basic-system {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:#EDEDED;
+	background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.05, #EDEDED), to(#DFDFDF));
+	background: -webkit-linear-gradient(top, #EDEDED 5%, #DFDFDF);
+	background: linear-gradient(top, #EDEDED 5%, #DFDFDF);
+	border-radius: 6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	padding:.5em 1.5em;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.basic-system:hover {
+	background: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.05, #EDEDED), to(#DFDFDF));
+	background: -webkit-linear-gradient(bottom, #EDEDED 5%, #DFDFDF);
+	background: linear-gradient(to top, #EDEDED 5%, #DFDFDF);
+	background-color:#dfdfdf;
+}
+.basic-system:active {
+	position:relative;
+	top:1px;
+}
+
+/* Botón de dos sabores ----------*/
+.two-flavors {
+	display: inline-block;
+	background: #f85032;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f85032), color-stop(50%,#f16f5c), color-stop(51%,#f6290c), color-stop(71%,#f02f17), color-stop(100%,#e73827)); 
+	background: -webkit-linear-gradient(top, #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); 
+	background: linear-gradient(to bottom, #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); 
+	color: #FFF;
+	text-decoration: none;
+	padding: .3em 1em;
+	border-radius: 2em;
+}
+
+.two-flavors:hover {
+	opacity: .9;
+}
+
+/* Botón súper flat ----------*/
+.flat-fever{
+	display: inline-block;
+	background: #E1A505;
+	color: #FFF;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 3px;
+}
+.flat-fever:hover{
+	background: #B5001E;	
+}
+
+
+/* Botón con relieve ----------*/
+.press{
+	display: inline-block;
+	background-color: #2B57C8;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255, .2)), color-stop(50%, rgba(255,255,255, .2)), color-stop(100%, rgba(255,255,255, 0)));
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255, .2) 50%, rgba(255,255,255, 0) 100%);
+	background-image: linear-gradient(to bottom, rgba(255,255,255, .2) 50%, rgba(255,255,255, 0) 100%);
+	color: #FFF;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 3px;
+}
+.press:hover{
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255, .3)), color-stop(50%, rgba(255,255,255, .3)), color-stop(100%, rgba(255,255,255, .1)));
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255, .3) 50%, rgba(255,255,255, .1) 100%);
+	background-image: linear-gradient(to bottom, rgba(255,255,255, .3) 50%, rgba(255,255,255, .1) 100%);
+
+}
+
+
+/* Botón con sombra plana ----------*/
+.flat-shadow{
+	display: inline-block;
+	background: #B4D9F4;
+	box-shadow: 0 5px 0 #79bbeb;
+	color: #394C5B;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 3px;
+}
+.flat-shadow:hover{
+	background: #96caf0;	
+}

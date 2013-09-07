@@ -1,0 +1,47 @@
+/* 
+CSS INDEX
+  $0 CSS imports	
+  $1 Base	
+  $2 Tipografia
+  $3 Botones
+  $4 Layout	
+  $5 ...
+*/
+
+
+/*$0 CSS imports -------------------- */
+
+@import url(assets/css/reset.css);
+@import url(assets/css/typography.css);
+@import url(assets/css/icons.css);
+@import url(assets/css/buttons.css);
+
+
+/* $1 Base -------------------- */
+
+/* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (triggers hasLayout) */
+
+/* apply a natural box layout model to all elements 
+(if supporting <IE8, use a pollyfill: https://github.com/Schepp/box-sizing-polyfill ) */
+* { 
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box; 
+		    box-sizing: border-box; 
+}
+
+body{
+	color: #222222;
+	font: 1em/1.8 sans-serif;
+}
+
+/* $2 Tipografia -------------------- */
+
+
+/* $3 Botones -------------------- */
+
+
+/* $4 Layout -------------------- */
+
