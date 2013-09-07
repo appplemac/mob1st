@@ -65,8 +65,22 @@ p{
   font-size: 14px;
 }
 
+div#desc {
+  margin-bottom: 1em;
+}
+
 .menu-link {
   text-align: center;
+}
+
+.features ul li {
+  margin-bottom: 0.9em;
+}
+
+.price p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
 }
 
 a {
@@ -78,6 +92,10 @@ a {
 
 .small {
   font-size: 0.7em;
+}
+
+.medium {
+  font-size: 0.8em;
 }
 
 nav ul li {
@@ -160,4 +178,5 @@ button {
   text-decoration: none;
   padding: .5em 1em;
   border-radius: 3px;
+  width: 100%;
 }
