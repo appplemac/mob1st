@@ -136,6 +136,25 @@ nav ul li {
 	margin-bottom: .5em;
 }
 
+.related img {
+  max-width: 25%;
+  margin-top: 1.2em;
+  margin-right: .7em;
+}
+
+.related img:last-of-type {
+  margin-right: 0em;
+}
+
+.contact ul li {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contact ul li:last-of-type {
+  margin-bottom: 1em;
+}
 
 .palette{
 	margin-bottom: 1em;
