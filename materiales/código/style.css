@@ -36,7 +36,6 @@ body{
 	background: #F7F7F7;
 	color: #222222;
 	font: 1em sans-serif;
-	max-width: 250px;
 	margin: 2em auto;
 	padding: 1em 2em;
 }
@@ -104,7 +103,7 @@ nav ul li {
 }
 
 .container{
-	max-width: 25em;
+	max-width: 250px;
 	margin: 0 auto 10em;
 	background: #F0EDE8;
 	padding: 1.5em 1.5em;
@@ -150,6 +149,10 @@ nav ul li {
   text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.centered {
+  text-align: center;
 }
 
 .contact ul li:last-of-type {
@@ -198,4 +201,17 @@ button {
   padding: .5em 1em;
   border-radius: 3px;
   width: 100%;
+}
+
+@media screen and (min-width: 30em) {
+  .container {
+    max-width: 30em;
+  }
+
+  .bottle img {
+    transform: rotate(-90deg);
+    -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+    width: auto;
+    max-width: 100%;
+  }
 }
